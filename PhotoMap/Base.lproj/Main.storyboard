@@ -140,13 +140,27 @@
                     <view key="view" contentMode="scaleToFill" id="uHI-gZ-cxA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dBf-xY-UFr">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dBf-xY-UFr" firstAttribute="leading" secondItem="iB2-E3-wo8" secondAttribute="leading" id="RYW-zB-imT"/>
+                            <constraint firstItem="iB2-E3-wo8" firstAttribute="bottom" secondItem="dBf-xY-UFr" secondAttribute="bottom" id="hHW-64-hDd"/>
+                            <constraint firstItem="dBf-xY-UFr" firstAttribute="top" secondItem="iB2-E3-wo8" secondAttribute="top" id="t2s-wE-kXu"/>
+                            <constraint firstItem="iB2-E3-wo8" firstAttribute="trailing" secondItem="dBf-xY-UFr" secondAttribute="trailing" id="zbe-Qd-f7v"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iB2-E3-wo8"/>
                     </view>
+                    <connections>
+                        <outlet property="fullImageView" destination="dBf-xY-UFr" id="3qw-X5-lR9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tbn-XH-4D4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1006" y="188"/>
+            <point key="canvasLocation" x="1070" y="188"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C6y-uv-5cj">

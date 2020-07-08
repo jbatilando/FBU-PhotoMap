@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		628A0B0524B586E900D1A785 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628A0B0424B586E900D1A785 /* MapKit.framework */; };
+		62EEE8DF24B60D88009EAC5C /* PhotoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EEE8DE24B60D88009EAC5C /* PhotoAnnotation.m */; };
 		6A22E5DD20F2A3D90052F3C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22E5DC20F2A3D90052F3C6 /* AppDelegate.m */; };
 		6A22E5E320F2A3D90052F3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A22E5E120F2A3D90052F3C6 /* Main.storyboard */; };
 		6A22E5E520F2A3DA0052F3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A22E5E420F2A3DA0052F3C6 /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 		0FB8B281BC86DC294A795EB1 /* Pods-PhotoMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoMap/Pods-PhotoMap.debug.xcconfig"; sourceTree = "<group>"; };
 		4BA548DB1FDF627664561D3C /* Pods-PhotoMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoMap/Pods-PhotoMap.release.xcconfig"; sourceTree = "<group>"; };
 		628A0B0424B586E900D1A785 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		62EEE8DD24B60D88009EAC5C /* PhotoAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PhotoAnnotation.h; path = PhotoMap/Views/PhotoAnnotation.h; sourceTree = SOURCE_ROOT; };
+		62EEE8DE24B60D88009EAC5C /* PhotoAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PhotoAnnotation.m; path = PhotoMap/Views/PhotoAnnotation.m; sourceTree = SOURCE_ROOT; };
 		6A22E5D820F2A3D90052F3C6 /* PhotoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A22E5DB20F2A3D90052F3C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A22E5DC20F2A3D90052F3C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 			children = (
 				6A22E5F520F2A4790052F3C6 /* LocationCell.h */,
 				6A22E5F620F2A4790052F3C6 /* LocationCell.m */,
+				62EEE8DD24B60D88009EAC5C /* PhotoAnnotation.h */,
+				62EEE8DE24B60D88009EAC5C /* PhotoAnnotation.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				6A22E5F320F2A41B0052F3C6 /* PhotoMapViewController.m in Sources */,
 				6A22E5FB20F2A4A00052F3C6 /* LocationsViewController.m in Sources */,
 				6A22E5FE20F2A4AE0052F3C6 /* FullImageViewController.m in Sources */,
+				62EEE8DF24B60D88009EAC5C /* PhotoAnnotation.m in Sources */,
 				6A22E5F720F2A4790052F3C6 /* LocationCell.m in Sources */,
 				6A22E5DD20F2A3D90052F3C6 /* AppDelegate.m in Sources */,
 			);

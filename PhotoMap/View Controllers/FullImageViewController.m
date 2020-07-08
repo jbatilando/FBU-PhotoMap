@@ -9,6 +9,7 @@
 #import "FullImageViewController.h"
 
 @interface FullImageViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *fullImageView;
 
 @end
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.fullImageView.image = self.photo;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface FullImageViewController : UIViewController
-
+@property (strong, nonatomic) UIImage *photo;
 @end
